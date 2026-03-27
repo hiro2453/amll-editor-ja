@@ -94,7 +94,8 @@
   },
   "pnpm": {
     "patchedDependencies": {
-      "@types/wicg-file-system-access": "patches/@types__wicg-file-system-access.patch"
+      "@types/wicg-file-system-access": "patches/@types__wicg-file-system-access.patch",
+      "@applemusic-like-lyrics/core": "patches/@applemusic-like-lyrics__core.patch"
     },
     "ignoredBuiltDependencies": [
       "@applemusic-like-lyrics/core",
