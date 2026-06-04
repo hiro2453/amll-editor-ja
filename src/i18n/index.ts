@@ -12,6 +12,7 @@ const STORE_KEY = 'amll_editor:locale'
 
 function detectEnvLocale(): Locales {
   const lang = navigator.language.toLowerCase()
+  if (lang.startsWith('ja')) return 'ja'
   if (lang.startsWith('en')) return 'en'
   return 'zh-hans'
 }
@@ -42,6 +43,7 @@ interface LocaleItem {
 export const localeItemList = [
   { code: 'zh-hans', name: '简体中文' },
   { code: 'en', name: 'English' },
+  { code: 'ja', name: '日本語' },
 ] as const satisfies LocaleItem[]
 export const currentLocaleItem = localeItemList.find((item) => item.code === currentLocale)!
 type _Check = Expect<Equal<Locales, LocaleItem['code']>>

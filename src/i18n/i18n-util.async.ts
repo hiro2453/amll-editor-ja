@@ -7,6 +7,7 @@ import { loadedFormatters, loadedLocales, locales } from './i18n-util.js'
 
 const localeTranslationLoaders = {
 	en: () => import('./en/index.js'),
+	ja: () => import('./ja/index.js'),
 	'zh-hans': () => import('./zh-hans/index.js'),
 }
 
