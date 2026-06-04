@@ -11,7 +11,7 @@
 [![Cloudflare Pages: BETA](https://img.shields.io/website?url=https%3A%2F%2Fbeta-editor.amll.dev%2F&logo=cloudflare&logoColor=white&label=Pages%2fBETA)](https://beta-editor.amll.dev/)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/amll-dev/amll-editor)
 
-[简体中文](./README.md) | English
+[日本語](./README.md) | [简体中文](./README.md) | English
 
 An open-source lyrics editor with per-syllable timing support, built with Vue.
 
